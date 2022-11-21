@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8080",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3000",
     "lint": "next lint"
   },
   "dependencies": {
@@ -19,12 +19,7 @@
     "passport-42": "^1.2.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-<<<<<<< HEAD
-    "xterm": "^5.0.0",
-    "xterm-addon-web-links": "^0.7.0"
-=======
     "simple-oauth2": "^5.0.0"
->>>>>>> e7fd36fa089134357c20b42de890a3a6c6396016
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

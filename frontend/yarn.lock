@@ -196,8 +196,6 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     "to-fast-properties" "^2.0.0"
 
-<<<<<<< HEAD
-=======
 "@commitlint/config-validator@^17.1.0":
   "integrity" "sha512-Q1rRRSU09ngrTgeTXHq6ePJs2KrI+axPTgkNYDWSJIuS1Op4w3J30vUfSXjwn5YEJHklK3fSqWNHmBhmTR7Vdg=="
   "resolved" "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-17.1.0.tgz"
@@ -320,7 +318,6 @@
     "@hapi/bourne" "^3.0.0"
     "@hapi/hoek" "^10.0.0"
 
->>>>>>> e7fd36fa089134357c20b42de890a3a6c6396016
 "@headlessui/react@^1.7.4":
   "integrity" "sha512-D8n5yGCF3WIkPsjEYeM8knn9jQ70bigGGb5aUvN6y4BGxcT3OcOQOKcM3zRGllRCZCFxCZyQvYJF6ZE7bQUOyQ=="
   "resolved" "https://registry.npmjs.org/@headlessui/react/-/react-1.7.4.tgz"
@@ -412,9 +409,9 @@
   "resolved" "https://registry.npmjs.org/@next/env/-/env-13.0.4.tgz"
   "version" "13.0.4"
 
-"@next/swc-darwin-x64@13.0.4":
-  "integrity" "sha512-HK4b2rFiju8d40GTL/jH9U6OQ7BYA2MeEHs7Dm7Rp7kwQtLzP3z6osdQS8er20tIFHDE4b+oVBy03ZUQkHf0Pg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-13.0.4.tgz"
+"@next/swc-darwin-arm64@13.0.4":
+  "integrity" "sha512-/lajev+9GSie+rRTl5z8skW9RJwZ+TwMKLzzM24TbDk8lUjqPTyJZ/cU0NDj8J7VQAZ6EehACSh9rcJeBRtLuA=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.0.4.tgz"
   "version" "13.0.4"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -1021,8 +1018,6 @@
   "resolved" "https://registry.npmjs.org/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz"
   "version" "1.0.3"
 
-<<<<<<< HEAD
-=======
 "classnames@^2.2.6", "classnames@^2.3.2":
   "integrity" "sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw=="
   "resolved" "https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz"
@@ -1045,7 +1040,6 @@
   "resolved" "https://registry.npmjs.org/cli-width/-/cli-width-3.0.0.tgz"
   "version" "3.0.0"
 
->>>>>>> e7fd36fa089134357c20b42de890a3a6c6396016
 "client-only@^0.0.1", "client-only@0.0.1":
   "integrity" "sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA=="
   "resolved" "https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz"
@@ -2352,11 +2346,7 @@
   dependencies:
     "safe-buffer" "^5.1.0"
 
-<<<<<<< HEAD
-"react-dom@^16 || ^17 || ^18", "react-dom@^18.2.0", "react-dom@>=16.9.0", "react-dom@18.2.0":
-=======
 "react-dom@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^16 || ^17 || ^18", "react-dom@^18", "react-dom@^18.2.0", "react-dom@>=16.8.0", "react-dom@>=16.9.0", "react-dom@18.2.0":
->>>>>>> e7fd36fa089134357c20b42de890a3a6c6396016
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -2364,9 +2354,6 @@
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.0"
 
-<<<<<<< HEAD
-"react@^16 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.9.0", "react@18.2.0":
-=======
 "react-icons@^4.6.0":
   "integrity" "sha512-rR/L9m9340yO8yv1QT1QurxWQvWpbNHqVX0fzMln2HEb9TEIrQRGsqiNFQfiv9/JEUbyHmHPlNTB2LWm2Ttz0g=="
   "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.6.0.tgz"
@@ -2382,7 +2369,6 @@
     "easy-bem" "^1.1.1"
 
 "react@*", "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^18", "react@^18.2.0", "react@>= 16", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8.0", "react@>=16.9.0", "react@18.2.0":
->>>>>>> e7fd36fa089134357c20b42de890a3a6c6396016
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -3021,21 +3007,7 @@
   "resolved" "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz"
   "version" "4.0.2"
 
-<<<<<<< HEAD
-"xterm-addon-web-links@^0.7.0":
-  "integrity" "sha512-6PqoqzzPwaeSq22skzbvyboDvSnYk5teUYEoKBwMYvhbkwOQkemZccjWHT5FnNA8o1aInTc4PRYAl4jjPucCKA=="
-  "resolved" "https://registry.npmjs.org/xterm-addon-web-links/-/xterm-addon-web-links-0.7.0.tgz"
-  "version" "0.7.0"
-
-"xterm@^5.0.0":
-  "integrity" "sha512-tmVsKzZovAYNDIaUinfz+VDclraQpPUnAME+JawosgWRMphInDded/PuY0xmU5dOhyeYZsI0nz5yd8dPYsdLTA=="
-  "resolved" "https://registry.npmjs.org/xterm/-/xterm-5.0.0.tgz"
-  "version" "5.0.0"
-
-"yaml@^1.10.2":
-=======
 "yaml@^1.10.0", "yaml@^1.10.2":
->>>>>>> e7fd36fa089134357c20b42de890a3a6c6396016
   "integrity" "sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg=="
   "resolved" "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz"
   "version" "1.10.2"

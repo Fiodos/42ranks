@@ -1,7 +1,8 @@
-import SolutionButtons from "./SolutionButtons";
 import React from "react"
+import { useState, useEffect } from "react"
 import dynamic from "next/dynamic";
 import "@uiw/react-textarea-code-editor/dist.css";
+import SolutionButtons from "./SolutionButtons";
 
 const CodeEditor = dynamic(
 	() => import("@uiw/react-textarea-code-editor").then((mod) => mod.default),
@@ -10,11 +11,23 @@ const CodeEditor = dynamic(
 
 export default function SolutionArea() {
 	const [code, setCode] = React.useState();
+	const [name, setName] = useState("")
+
+	useEffect(() => {
+		fetchNames()
+	})
+
+	const fetchNames = async () => {
+		const response = await fetch('http://localhost:3000/projects/1')
+		const data = await response.json()
+		setName(data.data[0].Name)
+	}
 
 	return (
 		<div className="code-area w-4/12">
 			<div className="border border-green-500">
 				<CodeEditor
+					type="text"
 					minHeight={500}
 					value={code}
 					language="c"
@@ -28,7 +41,7 @@ export default function SolutionArea() {
 					}}
 				/>
 			</div>
-			<SolutionButtons/>
-		</div>
+				<SolutionButtons/>
+			</div>
 	)
 }

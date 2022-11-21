@@ -9,10 +9,10 @@ function Index() {
 	return (
 			<Layout pageTitle="Welcome to 42rank">
 				<Header />
-				<div class="pt-10 pl-10 flex justify-center items-center">
+				<div class="pt-10 pl-24 flex justify-center items-center">
 					<RanksPicThick />
 				</div>
-				<div class ="flex justify-center pt-20">
+				<div class ="flex justify-center pt-20 pl-4">
 					<span class="box">
 						<button onClick={() => router.push("/challenge")}>
 							<h2 className="font-mono">

@@ -8,10 +8,19 @@ const nextConfig = {
       destination: "/terminal.html",
     },
   ],
+  images: {
+	domains: ['https://example.com',
+			'avatars.githubusercontent.com']
+},
 }
+
 const removeImports = require("next-remove-imports")();
+
 module.exports = removeImports({
-  experimental: { esmExternals: true }
+  experimental: { esmExternals: true },
+  images: {
+	domains: ['https://example.com',
+			'avatars.githubusercontent.com']
+  }
 });
 
-// module.exports = nextConfig

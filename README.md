@@ -14,11 +14,11 @@ problems. Such a platform could enhance our programming skills in a fun & compet
 
 # Some screenshots
 
-HomeScreen
+### HomeScreen
 [![Screenshot-2022-11-21-at-21-41-20.png](https://i.postimg.cc/1t5HNzk4/Screenshot-2022-11-21-at-21-41-20.png)](https://postimg.cc/rd3WBqFL)
 
-ChallengeScreen
+### ChallengeScreen
 [![Screenshot-2022-11-21-at-21-41-36.png](https://i.postimg.cc/k40vYyVR/Screenshot-2022-11-21-at-21-41-36.png)](https://postimg.cc/YGxFhYzt)
 
-## Leaderboard
+### Leaderboard
 [![Screenshot-2022-11-21-at-21-41-59.png](https://i.postimg.cc/Znz6xKgr/Screenshot-2022-11-21-at-21-41-59.png)](https://postimg.cc/N9bygYQM)

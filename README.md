@@ -22,3 +22,9 @@ problems. Such a platform could enhance our programming skills in a fun & compet
 
 ### Leaderboard
 [![Screenshot-2022-11-21-at-21-41-59.png](https://i.postimg.cc/Znz6xKgr/Screenshot-2022-11-21-at-21-41-59.png)](https://postimg.cc/N9bygYQM)
+
+# Try it out
+1. clone the repository
+2. inside the root dir, call <code>npm</code> install
+3. inside the backend dir, call <code>npm start</code>
+4. inside the frontend dir, call <code>npm run dev</code>
